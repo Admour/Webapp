@@ -22,6 +22,7 @@ public class A_DAO {
         ptmt.setString(1, a.getAcount());
         ptmt.setDouble(2, a.getAmount());
         ptmt.execute();
+        ptmt.execute();
     }
 
     public void updateA(Account a) throws SQLException, ClassNotFoundException {
